@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Crochet Princess</title>
+    <link rel="icon" href="images/لوجو مفرغ بعد التعديل-1.png"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <!-- ------------------------------------------------------------------ header ------------------------------------------------------------------ -->
+    <header class="navbar navbar-expand-sm position-fixed container-fluid" style="z-index: 999">
+      <nav class="container">
+            <!-- --------------------------------- Logo --------------------------------- -->
+            <img src="images/لوجو مفرغ بعد التعديل-1.png" alt="Logo" style="width: 130px" class="header-logo"/>
+            <!-- --------------------------------- /Logo --------------------------------- -->
+             <h2>Crochet Princess</h2>
+            <div class="header-purchases">
+              <div class="header-parent-icon" title="Products in stock">
+                    <i class="fa-solid fa-cart-shopping"></i>
+              </div><!-- /header-parent-icon -->
+              <div class="header-parent-number">
+                    <p id="count"></p>
+              </div><!-- /header-parent-number -->
+            </div><!-- /purchases -->
+      </nav>
+    </header>
+    <!-- ------------------------------------------------------------------ /header ------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------ main ------------------------------------------------------------------ -->
+    <main>
+        <div class="main-img">
+            <div class="main-overlay">
+                <div class="main-content">
+                    <h1 class="main-titel">Crochet Princess</h1>
+                    <p class="main-paragraph">Handmade crochet with love by Amira.</p><!-- /main-paragraph -->
+                    <div class="main-parent-button">
+                        <button class="main-browse">browse</button>
+                        <button class="main-order">order</button>
+                    </div><!-- /main-parent-button -->
+                </div><!-- /main-content -->
+            </div><!-- /main-overlay -->
+        </div><!-- /main-img -->
+    </main>
+    <!-- ------------------------------------------------------------------ /main ------------------------------------------------------------------ -->
+    <br/>
+    <!-- ------------------------------------------------------------------ section-1 ------------------------------------------------------------------ -->
+    <section class="section-1">
+        <div class="section-1-content">
+            <!-- --------------------------------- form --------------------------------- -->
+            <form class="d-block d-sm-flex">
+                <div class="section-1-parent-search d-flex form-control" style="background-color: #f5e0ff; box-shadow: 0 3px 8px #cc99ff40; border: .1rem solid #e0b3ff;">
+                    <input class="form-control me-2" type="text" placeholder="Search products" id="search" dir="auto"/>
+                </div>
+                <div class="section-1-parent-add-and-edit d-flex form-control d-sm-flex" style="background-color: #f5e0ff; box-shadow: 0 3px 8px #cc99ff40; border: .1rem solid #e0b3ff;">
+                    <input class="form-control me-2" type="text" id="inputproduct" placeholder="Confirm" dir="auto"/>
+                    <button class="btn btn-primary" type="button" id="addbtn" disabled>Add</button>
+                </div><!-- /section-1-parent-add-and-edit -->
+            </form>
+            <!-- --------------------------------- /form --------------------------------- -->
+        </div><!-- /section-1-content -->
+    </section><!-- /section-1 -->
+    <!-- ------------------------------------------------------------------ /section-1 ------------------------------------------------------------------ -->
+    <br/>
+    <!-- ------------------------------------------------------------------ section-2 ------------------------------------------------------------------ -->
+    <section class="section-2">
+        <div class="container section-2-content">
+            <div id="notfound" class="section-2-notfound" style="display: none">
+                <p>Sorry, the product is currently unavailable.</p>
+            </div><!-- /section-2-notfound -->
+            <div id="content" class="section-2-content"></div><!-- /section-2-content -->
+        </div><!-- /container -->
+    </section><!-- /section-2 -->
+    <!-- ------------------------------------------------------------------ /section-2 ------------------------------------------------------------------ -->
+    <br/>
+    <br/>
+    <!-- ------------------------------------------------------------------ /section-3 ------------------------------------------------------------------ -->
+    <section class="section-3 container">
+        <div class="section-3-content-video">
+            <div class="section-3-video-1">
+                <video controls autoplay muted loop>
+                    <source src="images/فيديو فساتين كروشيه-1.mp4" type="video/mp4">
+                </video>
+            </div><!-- /section-3-video-1 -->
+            <br/>
+            <br/>
+            <br/>
+            <div class="section-3-video-2">
+                <video controls autoplay muted loop>
+                    <source src="images/فيديو فساتين كروشيه-2.mp4" type="video/mp4">
+                </video>
+            </div><!-- /section-3-video-2 -->
+        </div>
+    </section><!-- /section-3 -->
+    <!-- ------------------------------------------------------------------ /section-3 ------------------------------------------------------------------ -->
+     <br/>
+     <br/>
+    <!-- ------------------------------------------------------------------ footer ------------------------------------------------------------------ -->
+    <footer>
+        <div class="footer-parent-links">
+            <a href="https://www.instagram.com/nona3056"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@_nona3056"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/p/أميرة-و-الكروشيه-100044202651440"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.youtube.com/@crochetprincess"><i class="fa-brands fa-youtube"></i></a>
+        </div><!-- /footer-parent-links -->
+        <div class="footer-Copyright">
+            <p>&copy; Copyright reserved only to <span>Crochet Princess</span></p>
+        </div><!-- /footer-Copyright -->
+    </footer>
+    <!-- ------------------------------------------------------------------ /footer ------------------------------------------------------------------ -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
